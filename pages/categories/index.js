@@ -3,7 +3,7 @@ import React from 'react'
 const index = ({categories}) => {
   return (
     <div> 
-      <h1>categorylist</h1>
+      <h1>categorylist with getServerSideProps</h1>
       <ul>
         {
           categories.map(item=>
